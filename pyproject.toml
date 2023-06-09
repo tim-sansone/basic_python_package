@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "basic_python_app"
+version = "0.0.1"
+authors = [
+  { name="Tim Sansone", email="tim.sansone@gmail.com" },
+]
+description = "A small python example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tim-sansone/basic_python_app"
+"Bug Tracker" = "https://github.com/tim-sansone/basic_python_app/issues"
